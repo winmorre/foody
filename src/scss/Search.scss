@@ -1,0 +1,32 @@
+@use 'base';
+
+.Search{
+  width: 100%;
+  &-left{
+    &-search-icon{
+      color: base.$app-yellow;
+      font-weight: bold;
+    }
+  }
+
+  &-input{
+    font-size: base.$text-size-small;
+    padding-left: 5%;
+
+    &:focus{
+      border-color: base.$app-yellow;
+      caret-color: base.$app-yellow;
+      color: base.$primary-black;
+      font-size: base.$text-size-small;
+      padding-left: 5%;
+    }
+    &::placeholder{
+      color: gray;
+      font-size: base.$text-size-small;
+      padding-left: 3%;
+      letter-spacing: 3px;
+      font-weight: 600;
+    }
+  }
+
+}

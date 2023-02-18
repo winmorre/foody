@@ -1,0 +1,24 @@
+.Ingredient {
+  height: 3em;
+  width: 100%;
+  margin-bottom: 5px;
+  padding-top: 2%;
+  border: lightslategray 1px solid;
+  border-radius: 5%;
+}
+.Ingredient-name {
+  width: 50%;
+  text-wrap: normal;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.Ingredient-qty {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2f2f2f;
+  text-align: right;
+}
+
+/*# sourceMappingURL=IngredientCard.css.map */

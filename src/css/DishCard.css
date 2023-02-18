@@ -1,0 +1,68 @@
+.Dish-card {
+  width: 15em;
+  max-width: 15em;
+  height: 18em;
+  border-radius: 10%;
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 25px #888888;
+  margin-right: 2%;
+  margin-top: 5%;
+}
+.Dish-card-box {
+  position: absolute;
+  z-index: 1;
+  margin-left: 1.5%;
+  margin-top: -3%;
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+  box-shadow: 0 2px 25px #888888;
+}
+.Dish-card-box-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.Dish-card-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  word-wrap: break-word;
+}
+.Dish-card-container {
+  font-size: 14px;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  width: 10em !important;
+  max-width: 10em;
+  color: lightslategray;
+}
+.Dish-card-container-cat-box {
+  font-size: 14px;
+}
+.Dish-card-container-text {
+  color: black;
+}
+.Dish-card-container-dot {
+  color: #f8bc43;
+  padding-bottom: 5px;
+}
+.Dish-card-container-dot :hover {
+  color: whitesmoke;
+}
+
+.Dish-card:hover {
+  color: white;
+  background-color: #f8bc43;
+}
+
+.Dish-card-box:hover {
+  transform: scale(1.1);
+}
+.Dish-card-box:hover-img {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=DishCard.css.map */

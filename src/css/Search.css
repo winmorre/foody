@@ -1,0 +1,27 @@
+.Search {
+  width: 100%;
+}
+.Search-left-search-icon {
+  color: #f8bc43;
+  font-weight: bold;
+}
+.Search-input {
+  font-size: 14px;
+  padding-left: 5%;
+}
+.Search-input:focus {
+  border-color: #f8bc43;
+  caret-color: #f8bc43;
+  color: #000000;
+  font-size: 14px;
+  padding-left: 5%;
+}
+.Search-input::placeholder {
+  color: gray;
+  font-size: 14px;
+  padding-left: 3%;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=Search.css.map */

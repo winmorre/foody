@@ -1,0 +1,72 @@
+@use 'base';
+
+.Dish-card{
+  width: 15em;
+  max-width: 15em;
+  height: 18em;
+  border-radius: base.$radius-10;
+  color: base.$primary-black;
+  background-color: base.$app-white;
+  box-shadow: 2px 2px 25px #888888;
+  margin-right: 2%;
+  margin-top:5%;
+
+  &-box{
+    position: absolute;
+    z-index: 1;
+    margin-left: 1.5%;
+    margin-top: -3.0%;
+    width: 10em;
+    height: 10em;
+    border-radius: base.$radius-100;
+    box-shadow: 0 2px 25px #888888;
+
+    &-img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      border-radius: base.$radius-100;
+    }
+  }
+  &-name{
+    font-weight: bold;
+    font-size: base.$text-size-medium;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  &-container{
+    font-size: base.$text-size-small;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    //padding-right: 2%;
+    width: 10em !important;
+    max-width: 10em;
+    color: lightslategray;
+    &-cat-box{
+      font-size: base.$text-size-small;
+    }
+    &-text{
+      color: black;
+    }
+
+
+    &-dot{
+      color: base.$app-yellow;
+      padding-bottom:5px;
+      :hover{
+        color: whitesmoke;
+      }
+    }
+  }
+}
+
+.Dish-card:hover{
+  color: white;
+  background-color: base.$app-yellow;
+}
+.Dish-card-box:hover{
+  transform: scale(1.1);
+  &-img{
+    transform: scale(1.2);
+  }
+}

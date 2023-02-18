@@ -1,0 +1,42 @@
+@use 'base';
+
+.Bell-fresh{
+  width: 95%;
+  height: 6.5em;
+  background-image: url("https://images.pexels.com/photos/15357863/pexels-photo-15357863.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: auto;
+  background-repeat: no-repeat;
+  //transform: rotate(180deg);
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  &-left{
+    color: white;
+    h4{
+      font-size: base.$text-size-xx-large;
+      font-weight: bolder;
+      letter-spacing: 2px;
+    }
+  }
+  &-right{
+    width: 30%;
+    &-box{
+      justify-content: space-between;
+      &-title{
+        color: base.$app-yellow;
+        font-weight: bold;
+        font-size: base.$text-size-large;
+        text-align: center;
+      }
+      &-text{
+        color: white;
+        font-size: base.$text-size-medium;
+        font-weight: 600;
+      }
+    }
+  }
+}

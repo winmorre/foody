@@ -1,0 +1,31 @@
+@use 'base';
+
+.Food-card{
+  display: inline-block;
+  border: 1px base.$app-yellow solid;
+  background-color: base.$whitish;
+  border-radius: base.$radius-10;
+  height: 8em;
+  width: 8em;
+  color: base.$primary-black;
+  margin-right: 2%;
+  &-img{
+    width: 50%;
+    height: 50%;
+    border-radius: base.$radius-100;
+  }
+  p{
+    text-align: center;
+    margin-top: 2%;
+    word-wrap: break-word;
+    font-size: base.$text-size-medium;
+    font-weight: 600;
+  }
+}
+.Food-card:hover{
+  background-color: base.$app-yellow;
+  color: white;
+  img{
+    transform: scale(1.1);
+  }
+}

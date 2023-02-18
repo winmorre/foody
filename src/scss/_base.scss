@@ -1,0 +1,48 @@
+$app-white: #ffffff;
+$background-white: #f8fafc;
+$whitish: #feefc6;
+$app-yellow: #f8bc43;
+$primary-green: #46b632;
+$primary-black: #000000;
+$shadow-color: #bdc6d3;
+$light-translate-gray: lightslategray;
+
+$default-radius: 10px;
+$radius-5: 5%;
+$radius-100: 100%;
+$radius-10: 10%;
+$radius-50: 50%;
+
+$default-text-size: 16px;
+$text-size-medium: 18px;
+$text-size-large: 24px;
+$text-size-x-large: 28px;
+$text-size-xx-large: 32px;
+$text-size-small: 14px;
+$text-size-x-small: 12px;
+$text-size-xx-small: 8px;
+
+$icon-size: 30px;
+
+
+@mixin button-box-shadow {
+  box-shadow: 4px 4px 4px $shadow-color;
+}
+
+@mixin app-button($height,$width,$color) {
+  height: $height;
+  width: $width;
+  color: $app-white;
+  border-radius: $default-radius;
+  text-align: center;
+}
+
+@mixin mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@mixin my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}

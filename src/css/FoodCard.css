@@ -1,0 +1,32 @@
+.Food-card {
+  display: inline-block;
+  border: 1px #f8bc43 solid;
+  background-color: #feefc6;
+  border-radius: 10%;
+  height: 8em;
+  width: 8em;
+  color: #000000;
+  margin-right: 2%;
+}
+.Food-card-img {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+}
+.Food-card p {
+  text-align: center;
+  margin-top: 2%;
+  word-wrap: break-word;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Food-card:hover {
+  background-color: #f8bc43;
+  color: white;
+}
+.Food-card:hover img {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=FoodCard.css.map */

@@ -1,0 +1,93 @@
+.Recipe {
+  background-color: white;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  right: 2%;
+  bottom: 20px;
+  top: 8%;
+  height: 80vh;
+  width: 20vw;
+  padding: 1.5%;
+  box-shadow: 0 0 25px #888888;
+  border-radius: 5%;
+}
+.Recipe-top {
+  margin-bottom: 5px;
+}
+.Recipe-top-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-wrap: normal;
+}
+.Recipe-top-icon {
+  font-size: 20px;
+  color: #000000;
+}
+.Recipe-ing {
+  margin-bottom: 5px;
+}
+.Recipe-ing-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.Recipe-ing-name {
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.Recipe-ing-qty {
+  font-weight: bold;
+  text-align: right;
+  font-size: 14px;
+}
+.Recipe-ing-list {
+  height: 40%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.Recipe-category-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+}
+.Recipe-category-text {
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  letter-spacing: 3px;
+  text-wrap: normal;
+}
+.Recipe-instruction-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+  letter-spacing: 3px;
+}
+.Recipe-instruction-container {
+  width: 100%;
+}
+.Recipe-instruction-container-text {
+  word-wrap: break-word;
+  text-align: justify-all;
+  text-justify: inter-word;
+  color: black;
+  font-size: 14px;
+}
+.Recipe-youtube-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+}
+.Recipe-vid-box {
+  border-radius: 5%;
+}
+
+/*# sourceMappingURL=RecipeCard.css.map */

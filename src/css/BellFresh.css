@@ -1,0 +1,40 @@
+.Bell-fresh {
+  width: 95%;
+  height: 6.5em;
+  background-image: url("https://images.pexels.com/photos/15357863/pexels-photo-15357863.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Bell-fresh-left {
+  color: white;
+}
+.Bell-fresh-left h4 {
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.Bell-fresh-right {
+  width: 30%;
+}
+.Bell-fresh-right-box {
+  justify-content: space-between;
+}
+.Bell-fresh-right-box-title {
+  color: #f8bc43;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.Bell-fresh-right-box-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=BellFresh.css.map */

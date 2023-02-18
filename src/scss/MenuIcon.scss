@@ -1,0 +1,20 @@
+@use 'base';
+
+.Menu-box{
+  height: 2.4em;
+  width: 2.4em;
+  border-radius: base.$radius-10;
+  background-color: base.$app-yellow;
+  align-content: center;
+  &-icon{
+    color: base.$app-white;
+    font-size: 30px;
+  }
+}
+
+.Food-panda{
+  height: 2.8em;
+  width: 2.5em;
+  border-radius: base.$radius-10;
+  background-color: transparent;
+}
